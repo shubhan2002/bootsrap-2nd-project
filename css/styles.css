@@ -1,0 +1,183 @@
+#title{
+  background-color:#ff4c68;
+  color:#fff;
+  overflow: hidden;
+}
+
+h1{
+  font-family: "Montserrat";
+  font-weight:900;
+  font-size: 2.5rem;
+  line-height: 1.6;
+}
+
+h2{
+  margin-bottom:4%;
+  font-family: "Montserrat";
+    font-weight:600;
+}
+
+.container-fluid{
+  padding: 3% 10%;
+}
+
+body{
+ font-family: "Montserrat";
+  font-weight:500;
+}
+
+.navbar{
+  padding-bottom:3.5rem;
+}
+.navbar-brand{
+   font-family:"Ubuntu";
+   font-weight:500;
+   font-size:2.3rem;
+}
+
+.nav-item{
+  padding: 0px 10px;
+}
+
+.nav-link{
+
+  font-family: "Montserrat";
+  font-weight:300;
+  font-size:1.2rem;
+}
+
+.btn-margin{
+  margin:3% 4% 3% 0;
+}
+
+.title-image{
+  width:60%;
+  transform: rotate(25deg);
+  margin-bottom: -40%;
+  margin-top:10%;
+  margin-left:10%;
+}
+
+@media screen and (max-width:770px){
+  #title{
+    text-align:center;
+  }
+
+  .title-image{
+  width:60%;
+  transform: rotate(0deg);
+  margin-bottom: -40%;
+  margin-top:10%;
+  margin-left:10%
+}
+  .navbar-brand{
+
+  }
+}
+
+
+/* to crop title background
+
+section id="title"
+
+#title{
+
+overflow: hidden;
+
+}
+
+------------------------
+
+<img src="images/iphone6.png" alt="iphone-mockup" class="title-image">
+
+
+
+.title-image{
+
+margin-bottom: -40%;
+
+} */
+
+.icon{
+  padding-top:2%;
+  color:#ef8172;
+  padding-bottom:2%;
+}
+.icon:hover{
+  color:#ff4c68;
+}
+
+.feature-title{
+    font-size:1.5rem;
+    margin-bottom:1%;
+    font-family: "Montserrat";
+    font-weight:600;
+}
+
+#features{
+  text-align:center;
+  margin-top:3%;
+}
+
+#testimonials{
+  background-color:#ef8172;
+  text-align:center;
+  color:#fff;
+
+  font-family: "Montserrat";
+    font-weight:600;
+}
+
+.carousel-item{
+    padding:5% 20%;
+}
+
+.testimonials-image{
+  width:20%;
+  border-radius:50%;
+  padding:3%;
+}
+
+#press{
+  background-color: #ef8172;
+  text-align:center;
+  padding-bottom:3%;
+}
+.press-image{
+  width:15%;
+}
+#pricing{
+  text-align:center;
+  padding: 2% 7%;
+}
+#cta{
+   background-color:#ff4c68;
+   color:#fff;
+   text-align:center;
+   padding-top: 5%;
+   padding-bottom:5%;
+
+}
+
+.lastsecbtn{
+  margin:1%;
+}
+
+h3{
+     font-family: "Montserrat";
+     font-weight:900;
+     padding:1% 20%;
+     line-height:1.5;
+}
+
+#footer{
+  text-align:center;
+  padding-top: 5%;
+  padding-bottom:5%;
+
+}
+
+.footericon{
+   margin:2%;
+   color:black;
+}
